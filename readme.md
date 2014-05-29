@@ -10,12 +10,12 @@ Laravel is accessible, yet powerful, providing powerful tools needed for large, 
 
 ## Official Documentation
 
-Documentation for the entire framework can be found on the [Laravel website](http://laravel.com/docs).
+Documentation for the app will follow as we build it piece by piece.
 
-### Contributing To Laravel
+### Contributing To the Malton App
 
-**All issues and pull requests should be filed on the [laravel/framework](http://github.com/laravel/framework) repository.**
+**This is just a test app at the moment.
 
 ### License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+Laravel and this App are open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
