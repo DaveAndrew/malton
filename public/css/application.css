@@ -1,0 +1,46 @@
+body { padding-top: 50px; }
+
+.error { font-size: 85%; color: #F00; font-style: italic; }
+
+li img { margin-right: 1em; }
+.completed { background: #EEE; }
+form.task-update-form { float: left; margin-top: 1em; margin-right: 1.5em; }
+a.task-delete { margin-top: 0.5em; float: right; }
+
+
+/* Sign In Details*/
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+.form-signin .checkbox {
+    font-weight: normal;
+}
+.form-signin .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}

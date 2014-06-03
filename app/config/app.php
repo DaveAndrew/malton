@@ -13,7 +13,7 @@ return array(
 	|
 	*/
 
-	'debug' => false,
+	'debug' => true,
 
 	/*
 	|--------------------------------------------------------------------------
@@ -56,19 +56,6 @@ return array(
 
 	/*
 	|--------------------------------------------------------------------------
-	| Application Fallback Locale
-	|--------------------------------------------------------------------------
-	|
-	| The fallback locale determines the locale to use when the current one
-	| is not available. You may change the value to correspond to any of
-	| the language folders that are provided through your application.
-	|
-	*/
-
-	'fallback_locale' => 'en',
-
-	/*
-	|--------------------------------------------------------------------------
 	| Encryption Key
 	|--------------------------------------------------------------------------
 	|
@@ -78,7 +65,7 @@ return array(
 	|
 	*/
 
-	'key' => 'uSjmC8rgJmB5HQIn5HvarNPT1Qw8Awab',
+	'key' => 'TLpUmliToCfNAuUYOnJ2cJ7zjbpNyYTM',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -119,6 +106,8 @@ return array(
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
+        'Way\Generators\GeneratorsServiceProvider',
+        'Laracasts\Validation\ValidationServiceProvider',
 
 	),
 
